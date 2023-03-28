@@ -11,7 +11,7 @@ def Welcome():
 # Defining a function to return a random noun from
 # a file.
 def nounread():
-    nouns = pd.read_csv("/home/kekeli/Desktop/PyProjects/PassPicker/english-nouns.csv")
+    nouns = pd.read_csv("./PassPicker/english-nouns.csv")
     n = nouns.iloc[random.randrange(0,1525),0]
     n =str(n)
     return(n)
@@ -19,7 +19,7 @@ def nounread():
 # Defining a function to return a random adjective from
 # a file.  
 def adj_read():
-    adjectives = pd.read_csv("/home/kekeli/Desktop/PyProjects/PassPicker/english-adjectives.csv")
+    adjectives = pd.read_csv("./PassPicker/english-adjectives.csv")
     adj = adjectives.iloc[random.randrange(0,1347),0]
     adj = str(adj)
     return(adj)
