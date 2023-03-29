@@ -1,12 +1,8 @@
 from password import *
 
-welcome()
+passcode.welcome()
 while True:   
-    nounread()
-    adj_read()
-    random_num()
-    charread()
-    print ("Password is: " + nounread() + adj_read() + charread() + random_num())
+    print ("Password is: " + passcode.nounread() + passcode.adj_read() + passcode.charread() + passcode.random_num())
     response = input("\nWant some more? Type y or n: \n")
     print("\n")
     if response == "n":
