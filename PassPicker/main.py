@@ -1,6 +1,6 @@
 from password import *
 
-Welcome()
+welcome()
 while True:   
     nounread()
     adj_read()

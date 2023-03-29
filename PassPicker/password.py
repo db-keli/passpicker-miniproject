@@ -5,7 +5,7 @@ import pandas as pd
 
 # A fuction that takes no arguments 
 # and prints our welcome message
-def Welcome():
+def welcome():
     print("\nWelcome to PassPicker\n\(*_*)/ \nI generate infinite random passwords.\nSecure your accounts!!\n")
 
 # Defining a function to return a random noun from
