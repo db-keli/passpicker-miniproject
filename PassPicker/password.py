@@ -37,5 +37,5 @@ class Password:
         char = random.choice(string.punctuation)
         char = str(char)
         return(char)
-
+    
 passcode = Password()
