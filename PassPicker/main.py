@@ -1,4 +1,4 @@
-from password import *
+from password import passcode
 
 passcode.welcome()
 while True:   
