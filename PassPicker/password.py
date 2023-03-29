@@ -33,8 +33,8 @@ def random_num():
 # Defining a function to generate a random character from 
 # the given list.
 def charread():
-    charaters = ["~","!","@","#","$","%","^","&","*","_","-",":",";","|","/",">","<"]
-    char = random.choice(charaters)
+    char = random.choice(string.punctuation)
     char = str(char)
     return(char)
+
     
