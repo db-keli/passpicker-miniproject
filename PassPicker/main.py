@@ -1,4 +1,5 @@
 from password import passcode
+from time import *
 
 passcode.welcome()
 while True:   
@@ -7,3 +8,10 @@ while True:
     print("\n")
     if response == "n":
         break
+    elif response == "y" or response == "Y":
+        continue
+    else:
+        print("Invalid response, Please make sure it's y or n.")
+        response = input("Want some more?\n")
+        if response == "n":
+            break

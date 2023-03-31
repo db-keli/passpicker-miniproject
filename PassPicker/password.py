@@ -2,8 +2,8 @@ import random
 import string
 import pandas as pd
 
+
 class Password:
-        
     # A fuction that takes no arguments 
     # and prints our welcome message
     def welcome(self):
@@ -37,5 +37,5 @@ class Password:
         char = random.choice(string.punctuation)
         char = str(char)
         return(char)
-    
+        
 passcode = Password()
