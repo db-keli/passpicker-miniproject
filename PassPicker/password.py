@@ -28,7 +28,7 @@ class Password:
     # Defining a function to generate a random number     
     def random_num(self):
         number = random.randrange(0,900)
-        number = str(number)
+        number = str(number) 
         return(number)
 
     # Defining a function to generate a random character from 
