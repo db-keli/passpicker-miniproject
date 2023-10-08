@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 import string
 import pandas as pd
@@ -12,7 +14,7 @@ class Password:
     # Defining a function to return a random noun from
     # a file.
     def nounread(self):
-        nouns = pd.read_csv("./PassPicker/english-nouns.csv")
+        nouns = pd.read_csv("english-nouns.csv")
         n = nouns.iloc[random.randrange(0,1525),0]
         n =str(n)
         return(n)
@@ -20,7 +22,7 @@ class Password:
     # Defining a function to return a random adjective from
     # a file.  
     def adj_read(self):
-        adjectives = pd.read_csv("./PassPicker/english-adjectives.csv")
+        adjectives = pd.read_csv("english-adjectives.csv")
         adj = adjectives.iloc[random.randrange(0,1347),0]
         adj = str(adj)
         return(adj)

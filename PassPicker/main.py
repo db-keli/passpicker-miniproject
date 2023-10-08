@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from password import passcode
 from time import *
 
